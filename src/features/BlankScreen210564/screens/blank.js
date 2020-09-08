@@ -25,7 +25,11 @@ export class _Blank extends React.Component {
   state = {}
 
   render = () => (
-    <View
+    <ImageBackground
+      source={{
+        uri:
+          "https://d3nfddh2sbo9hk.cloudfront.net/media/project_component_resources/8_IELVHM6.jpg"
+      }}
       style={{
         width: "100%",
         height: "100%",
@@ -101,7 +105,7 @@ export class _Blank extends React.Component {
       >
         Press me!
       </Button>
-    </View>
+    </ImageBackground>
   )
 }
 
